@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+table {
+  margin: 10px;
+  position: relative;
+  top: 30px;
+  border-radius: .5em;
+  border-collapse: collapse;
+}
+
+tr:nth-child(2) {
+  background-color: rgb(233, 233, 233);
+}
+
+td {
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+thead {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.addAuthorBtn {
+  background-color: cornflowerblue;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  top: 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: .5em;
+  font-weight: bold;
+}
+
+button, .submitBtn {
+  background-color: cornflowerblue;
+  margin: 10px;
+  padding: 10px;
+  border-radius: .5em;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 4px 4px 2px rgb(0,0,0,.2);
+}
+
+.headerButton {
+  background-color: white;
+  color: cornflowerblue;
+}
+
+label {
+  margin: 10px;
+}
+
+.inputBox {
+  margin: 10px;
+  padding: 10px;
+  border-radius: .5em;
+  border: solid 1px lightgray;
+}
+
+h2 {
+  margin: 10px
+}
+
+.petDetailSpan {
+  font-weight: bold;
+}
+
+p {
+  margin: 40px 20px;
+}
+
+.likesDiv {
+  display: flex;
+  align-items: center;
+}
+
+.likesDiv p {
+  margin: 0 20px;
+}
+
+.detailHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adoptBtn {
+  background-color: rgb(255, 57, 57);
+  margin-right: 40px;
+}
+
+.likeBtn {
+  background-color: rgb(91, 193, 83);
+}
+
+.likeBtnDisabled {
+  background-color: rgb(84, 102, 82);
+  cursor: default;
+}
+
+.formBody {
+  display: flex;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+label .inputBox {
+  margin-left: 0;
+}
+
+.errorBox {
+  background-color: rgba(255, 151, 151, 0.434);
+}
+
+.errorBox p {
+  color: red;
+  margin: 5px 10px;
+}
